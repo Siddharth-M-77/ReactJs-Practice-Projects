@@ -9,13 +9,12 @@ import Cart from './components/Cart'
 const App = () => {
   return (
     <div className=''>
-      {/* <Todo/> */}
       {/* <WeatherCard/> */}
-      {/* <SearchFunctionality/> */}
-      <Routes>
+      <SearchFunctionality/>
+      {/* <Routes>
         <Route path='/' element={<EccomerceApp />} />
         <Route path='/cart' element={<Cart />} />
-      </Routes>
+      </Routes> */}
     </div>
   )
 }
